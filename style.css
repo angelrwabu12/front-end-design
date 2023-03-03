@@ -1,0 +1,77 @@
+body {
+    background-image: url('book.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 150% 100%;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.4s;
+    width: 40%;
+    background-color: rgb(249, 249, 247);
+    margin-left:0px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 20px;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 80%;
+    margin-bottom: 15px;
+   
+  }
+  
+  .icon {
+    padding: 10px;
+    background: black;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+     
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+  
+   
+  }
+  
+  .btn:hover {
+    opacity: 1;
+     
+  }
+
+  h4{
+    font-size: 20px;
+  }
+  p{
+    font-size: 20px;
+  }
+  h5{
+    text-align: center;
+  }
+  h3{
+    color: red;
+  }
